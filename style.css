@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    padding-left: 70px;
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.bb{
+    display: flex;
+    gap: 100px;
+}
+a:hover{
+    color: red;
+}
+.clor{
+    color: white;
+   
+}
+h1{
+    color: white;
+    font-size: 70px;
+}
+p{
+    color: white;
+    padding-top: 50px;
+    
+}
+.key{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    Width:236px;
+    Height:68px;
+    margin-top: 50px;
+}
+
+.key:hover{
+    background-color: red;
+    border: 2px solid red;
+}
+.one{
+    background-image: url(./Rectangle\ 48.png);
+    text-align: center;
+    padding-top: 73px;
+    padding-left: 220px;
+    padding-right: 220px;
+    height: 619px;
+}
+.transfor{
+    transform: translateY(-100px);
+}
+.two{
+    padding-top: 750px;
+    padding-left: 600px;
+}
+h2{
+    font-size: 50px;
+}
+.x{
+    color: rgba(250, 74, 12, 1);
+
+}
+.three{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
+.color{
+    color: black;
+}
+.four{
+    background-image: url(./Rectangle\ 47.png);
+    height: 516px;
+    padding-top: 140px;
+    text-align: center;
+    align-items: center;
+}
+.with{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+footer{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    padding-top: 30px;
+}
